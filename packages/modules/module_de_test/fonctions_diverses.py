@@ -53,7 +53,3 @@ def afficher_flottant(flottant):
     # Seule la partie flottante doit être tronquée
     return ",".join([partie_entiere, partie_flottante[:3]])
 
-# test de la fonction entier_reste
-if __name__ == "__main__":
-    entier_reste(25, 3)
-    os.system("pause")
